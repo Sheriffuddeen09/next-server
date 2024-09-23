@@ -1,423 +1,1290 @@
 {
-    "homes":[
-        {
-            "images":"image/logic.jpg",
-            "welcome":"welcome to Ecoreme Logistics Choose your path to Success",
-            "title":"Ecoreme Company",
-            "body":"Ecoreme is a detailed organization and implementation of a complex operation, refers to the overall process of managing how your resources are acquired, stored, and transported to their final destination. Logistics plays a critical role in business operations and the economy at large",
-            "clicks":"View Proceed" 
-        },
-        {
-            "images":"image/tech.webp",
-            "welcome":"welcome to Ecoreme Technology Choose your path to Success",
-            "title":"Ecoreme Company",
-            "body":"Ecoreme technology, help in the application of scientific knowledge to the practical aims of human life or phrased, to the change and manipulation of the human environment. Ecoreme technology is applicable to conceptual knowledge to achieve practical goals, especially in a reproducible way and products resulting goods",
-           "clicks": "View Proceed"
-        }
+    "posts": [
+      {
+        "id": "1",
+        "userId": 13,
+        "user": "media/business.png",
+        "video": "media/editVideo.mp4",
+        "title": "Clothes and dresses on olyrae shopping website",
+        "tag": "olyrae",
+        "views": "17k",
+        "date": "3 days ago"
+      },
+      {
+        "id": "2",
+        "userId": 2,
+        "user": "media/backend.jpg",
+        "video": "media/Responsive Navbar Tutorial In React JS.mp4",
+        "title": "Responsive Navbar Tutorial In React JS",
+        "videosecond": "media/Responsive product slider in React js  MultiItem E-Commerce Product Slider  Tou.mp4",
+        "tag": "React video",
+        "views": "170k",
+        "date": "3 months ago"
+      },
+      {
+        "id": "3",
+        "userId": 2,
+        "user": "media/data science.png",
+        "video": "media/React Upload Image and Show  Image Cropping Feature  React JS Image Uploading.m.mp4",
+        "videosecond": "media/Responsive product slider in React js  MultiItem E-Commerce Product Slider  Tou.mp4",
+        "title": "React Upload Image and Show  Image Cropping Feature  React JS Image Uploading",
+        "tag": "olyrae",
+        "views": "7k",
+        "date": "28 days ago"
+      },
+      {
+        "id": "4",
+        "userId": 1,
+        "user": "media/business.png",
+        "video": "media/Angular Full Course - Complete Zero to Hero Angular full Tutorial.mp4",
+        "title": "Angular Full Course - Complete Zero to Hero Angular full Tutorial.mp4",
+        "tag": "Course",
+        "views": "117k",
+        "date": "23 days ago"
+      },
+      {
+        "id": "5",
+        "userId": 12,
+        "user": "media/google manage.png",
+        "video": "media/CSS Tutorial – Full Course for Beginners.mp4",
+        "title": "CSS Tutorial – Full Course for Beginners.mp4",
+        "tag": "Css video",
+        "views": "170k",
+        "date": "1 months ago"
+      },
+      {
+        "id": "6",
+        "userId": 11,
+        "user": "media/infomation.png",
+        "video": "media/Docker Containers and Kubernetes Fundamentals – Full Hands-On Course.mp4",
+        "title": "Docker Containers and Kubernetes Fundamentals – Full Hands-On Course.mp4",
+        "tag": "Docker video",
+        "views": "77k",
+        "date": "2 days ago"
+      },
+      {
+        "id": "7",
+        "userId": 10,
+        "user": "media/python (1).png",
+        "video": "media/JavaScript Full Course (2023) - Beginner to Pro - Part 1.mp4",
+        "title": "JavaScript Full Course (2023) - Beginner to Pro - Part 1.mp4",
+        "tag": "Full Course",
+        "views": "17k",
+        "date": "3 days ago"
+      },
+      {
+        "id": "8",
+        "userId": 9,
+        "user": "media/logo-food.png",
+        "video": "media/Learn HTML – Full Tutorial for Beginners (2022).mp4",
+        "title": "Learn HTML – Full Tutorial for Beginners (2022).mp4",
+        "tag": "Html Full-Video",
+        "views": "170k",
+        "date": "1 year ago"
+      },
+      {
+        "id": "9",
+        "userId": 8,
+        "user": "media/Specialization-python.png",
+        "video": "NET 5 REST API Tutorial - Build From Scratch With C#.mp4",
+        "title": "NET 5 REST API Tutorial - Build From Scratch With C#.mp4",
+        "tag": "Net 5 Rest-Api",
+        "views": "7k",
+        "date": "8 months ago"
+      },
+      {
+        "id": "10",
+        "userId": 7,
+        "user": "media/business.png",
+        "video": "media/Vue JS complete tutorial _ Full course for beginners _ version 3.mp4",
+        "title": "Vue JS complete tutorial _ Full course for beginners _ version",
+        "tag": "olyrae",
+        "views": "171",
+        "date": "2 years ago"
+      },
+      {
+        "id": "11",
+        "userId": 6,
+        "user": "media/learn.png",
+        "video": "media/Next.js Full Course for Beginners _ Nextjs 13 Tutorial _ 7 Hours.mp4",
+        "title": "Next.js Full Course for Beginners _ Nextjs 13 Tutorial _ 7 Hours",
+        "tag": "Next.js",
+        "views": "10k",
+        "date": "a month ago"
+      },
+      {
+        "id": "12",
+        "userId": 2,
+        "user": "media/graphic.png",
+        "video": "media/React JS Full Course for Beginners _ Complete All-in-One Tutorial _ 9 Hours (1).m.mp4",
+        "title": "React JS Full Course for Beginners _ Complete All-in-One Tutorial _ 9 Hours (1)",
+        "tag": "Full Course for Beginners",
+        "views": "101k",
+        "date": "4 months ago"
+      },
+      {
+        "id": "13",
+        "userId": 5,
+        "user": "media/financial.png",
+        "video": "media/React Redux E-Commerce Shopping Cart React Router Dom Install-3.mp4",
+        "title": "React Redux E-Commerce Shopping Cart React Router Dom Install-3",
+        "tag": "Redux Part - 3",
+        "views": "200k",
+        "date": "5 months ago"
+      },
+      {
+        "id": "14",
+        "userId": 5,
+        "user": "media/navigate.png",
+        "video": "media/React Redux Toolkit E-Commerce Shopping Cart Project Category Card Design-4.mp4",
+        "title": "React Redux Toolkit E-Commerce Shopping Cart Project Category Card Design-4",
+        "tag": "Redux Part - 4",
+        "views": "6k",
+        "date": "4 months ago"
+      },
+      {
+        "id": "15",
+        "userId": 5,
+        "user": "media/sql.png",
+        "video": "media/React Redux Toolkit E-Commerce Shopping Cart Project Product Card Design-5.mp4",
+        "title": "React Redux Toolkit E-Commerce Shopping Cart Project Product Card Design-5",
+        "tag": "Redux Part - 5",
+        "views": "5k",
+        "date": "3 months ago"
+      },
+      {
+        "id": "16",
+        "userId": 5,
+        "user": "media/transport.jpg",
+        "video": "media/React Redux Toolkit E-Commerce Shopping Cart Project Rating Star Design-6.mp4",
+        "title": "React Redux Toolkit E-Commerce Shopping Cart Project Rating Star Design-6",
+        "tag": "Redux Part - 6",
+        "views": "7k",
+        "date": "2 months ago"
+      },
+      {
+        "id": "17",
+        "userId": 5,
+        "user": "media/trust in Allah.jpg",
+        "video": "media/React Redux Toolkit E-Commerce Shopping Cart Project Setup-2.mp4",
+        "title": "React Redux Toolkit E-Commerce Shopping Cart Project Setup-2",
+        "tag": "Redux Part - 2",
+        "views": "6k",
+        "date": "1 months ago"
+      },
+      {
+        "id": "18",
+        "userId": 4,
+        "user": "media/web.jpg",
+        "video": "media/React Typescript Project Tutorial  Shopping Cart - Part 1.mp4",
+        "title": "React Typescript Project Tutorial  Shopping Cart - Part 1",
+        "tag": "Typescript Part - 1",
+        "views": "7k",
+        "date": "28 days ago"
+      },
+      {
+        "id": "19",
+        "userId": 4,
+        "user": "media/Oyster Pie Punchfork.jpg",
+        "video": "media/React Typescript Project Tutorial  Shopping Cart - Part 2.mp4",
+        "title": "React Typescript Project Tutorial  Shopping Cart - Part 2",
+        "tag": "Typescript Part - 2",
+        "views": "4k",
+        "date": "4 days ago"
+      },
+      {
+        "id": "20",
+        "userId": 3,
+        "user": "media/cola.jpg",
+        "video": "media/Tailwind CSS Full Course for Beginners _ Complete All-in-One Tutorial _ 3 Hours.mp4",
+        "title": "Tailwind CSS Full Course for Beginners _ Complete All-in-One Tutorial _ 3 Hours",
+        "tag": "Tailwind/Css",
+        "views": "300k",
+        "date": "2 months ago"
+      },
+      {
+        "id": "21",
+        "userId": 2,
+        "user": "media/learn.png",
+        "video": "media/Responsive product slider in React js  MultiItem E-Commerce Product Slider  Tou.mp4",
+        "title": "Responsive product slider in React js  MultiItem E-Commerce Product Slider  Tou",
+        "tag": "Responsive",
+        "views": "700k",
+        "date": "9 months ago"
+      }
     ],
-    "inputs":[
-        {
-            "id":1,
-            "transport":"Ajman (AEAJM) United arab Emirate"
-        },
-        {
-            "id": 2,
-            "transport": "Abu Dhabi (AEAUH) United arab Emirate"
-        },
-        {
-            "id": 3,
-            "transport": " Dubia (AEDBX) United arab Emirate"
-        },
-        {
-            "id":4,
-            "transport": " Fujairah (AEFJR) United arab Emirate"
-        },
-        {
-            "id":5,
-            "transport": "Dubai (AEDXB) United arab Emirate"
-        },
-        {
-            "id":6,
-            "transport": "Ras Al Khaimah (AERKT) United"
-        },
-        {
-            "id":7,
-            "transport": "Jebel Ali (AEJEA) United arab Emirate"
-        },
-        {
-            "id":8,
-            "transport": "Abidan (CIABJ) Cote d'lvore"
-        },
-        {
-            "id":9,
-            "transport": "San-Pedro (CISPY) Cote d'lvore"
-        },
-        {
-            "id":10,
-            "transport": "Douala(CMDLA) Cameroon"
-        },
-        {
-            "id":11,
-            "transport": "Tema (GHTEM) Ghana"
-        },
-        {
-            "id":12,
-            "transport": "Takoradi (GHTKD) Ghana"
-        },
-        {
-            "id":13,
-            "transport": "Mombasa (KEMBA) Kenya"
-        },
-        {
-            "id":14,
-            "transport": "Nairobi (KENBO) Kenya"
-        },
-        {
-            "id":15,
-            "transport": "Apapa (NGAPP) Nigeria"
-        },
-        {
-            "id":16,
-            "transport": "Calabar (NGCBQ) Nigeria"
-        },
-        {
-            "id":17,
-            "transport": "Lagos (NGLOS) Nigeria"
-        },
-        {
-            "id":18,
-            "transport": "Onne (NGONN) Nigeria"
-        },
-        {
-            "id":19,
-            "transport": "Port Harcort (NGPHC) Nigeria"
-        },
-        {
-            "id":20,
-            "transport": "Tincan/Lagos (NGTIN) Nigeria"
-        },
-        {
-            "id":21,
-            "transport": "Warri (NGWAR) Nigeria"
-        },
-        {
-            "id":22,
-            "transport": "Dakar (SNDKR) Senegal"
-        }
+    "filters": [
+      {
+        "id": 13,
+        "userId": 13,
+        "user": "media/business.png",
+        "video": "media/editVideo.mp4",
+        "title": "Clothes and dresses on olyrae shopping website",
+        "tag": "olyrae",
+        "views": "17k",
+        "date": "3 days ago"
+      },
+      {
+        "id": 2,
+        "userId": 2,
+        "user": "media/backend.jpg",
+        "video": "media/Responsive Navbar Tutorial In React JS.mp4",
+        "title": "Responsive Navbar Tutorial In React JS",
+        "videosecond": "media/Responsive product slider in React js  MultiItem E-Commerce Product Slider  Tou.mp4",
+        "tag": "React video",
+        "views": "170k",
+        "date": "3 months ago"
+      },
+      {
+        "id": 2,
+        "userId": 2,
+        "user": "media/data science.png",
+        "video": "media/React Upload Image and Show  Image Cropping Feature  React JS Image Uploading.m.mp4",
+        "videosecond": "media/Responsive product slider in React js  MultiItem E-Commerce Product Slider  Tou.mp4",
+        "title": "React Upload Image and Show  Image Cropping Feature  React JS Image Uploading",
+        "tag": "olyrae",
+        "views": "7k",
+        "date": "28 days ago"
+      },
+      {
+        "id": 1,
+        "userId": 1,
+        "user": "media/business.png",
+        "video": "media/Angular Full Course - Complete Zero to Hero Angular full Tutorial.mp4",
+        "title": "Angular Full Course - Complete Zero to Hero Angular full Tutorial.mp4",
+        "tag": "Course",
+        "views": "117k",
+        "date": "23 days ago"
+      },
+      {
+        "id": 12,
+        "userId": 12,
+        "user": "media/google manage.png",
+        "video": "media/CSS Tutorial – Full Course for Beginners.mp4",
+        "title": "CSS Tutorial – Full Course for Beginners.mp4",
+        "tag": "Css video",
+        "views": "170k",
+        "date": "1 months ago"
+      },
+      {
+        "id": 11,
+        "userId": 11,
+        "user": "media/infomation.png",
+        "video": "media/Docker Containers and Kubernetes Fundamentals – Full Hands-On Course.mp4",
+        "title": "Docker Containers and Kubernetes Fundamentals – Full Hands-On Course.mp4",
+        "tag": "Docker video",
+        "views": "77k",
+        "date": "2 days ago"
+      },
+      {
+        "id": 10,
+        "userId": 10,
+        "user": "media/python (1).png",
+        "video": "media/JavaScript Full Course (2023) - Beginner to Pro - Part 1.mp4",
+        "title": "JavaScript Full Course (2023) - Beginner to Pro - Part 1.mp4",
+        "tag": "Full Course",
+        "views": "17k",
+        "date": "3 days ago"
+      },
+      {
+        "id": 9,
+        "userId": 9,
+        "user": "media/logo-food.png",
+        "video": "media/Learn HTML – Full Tutorial for Beginners (2022).mp4",
+        "title": "Learn HTML – Full Tutorial for Beginners (2022).mp4",
+        "tag": "Html Full-Video",
+        "views": "170k",
+        "date": "1 year ago"
+      },
+      {
+        "id": 8,
+        "userId": 8,
+        "user": "media/Specialization-python.png",
+        "video": "NET 5 REST API Tutorial - Build From Scratch With C#.mp4",
+        "title": "NET 5 REST API Tutorial - Build From Scratch With C#.mp4",
+        "tag": "Net 5 Rest-Api",
+        "views": "7k",
+        "date": "8 months ago"
+      },
+      {
+        "id": 7,
+        "userId": 7,
+        "user": "media/business.png",
+        "video": "media/Vue JS complete tutorial _ Full course for beginners _ version 3.mp4",
+        "title": "Vue JS complete tutorial _ Full course for beginners _ version",
+        "tag": "olyrae",
+        "views": "171",
+        "date": "2 years ago"
+      },
+      {
+        "id": 6,
+        "userId": 6,
+        "user": "media/learn.png",
+        "video": "media/Next.js Full Course for Beginners _ Nextjs 13 Tutorial _ 7 Hours.mp4",
+        "title": "Next.js Full Course for Beginners _ Nextjs 13 Tutorial _ 7 Hours",
+        "tag": "Next.js",
+        "views": "10k",
+        "date": "a month ago"
+      },
+      {
+        "id": 2,
+        "userId": 2,
+        "user": "media/graphic.png",
+        "video": "media/React JS Full Course for Beginners _ Complete All-in-One Tutorial _ 9 Hours (1).m.mp4",
+        "title": "React JS Full Course for Beginners _ Complete All-in-One Tutorial _ 9 Hours (1)",
+        "tag": "Full Course for Beginners",
+        "views": "101k",
+        "date": "4 months ago"
+      },
+      {
+        "id": 5,
+        "userId": 5,
+        "user": "media/financial.png",
+        "video": "media/React Redux E-Commerce Shopping Cart React Router Dom Install-3.mp4",
+        "title": "React Redux E-Commerce Shopping Cart React Router Dom Install-3",
+        "tag": "Redux Part - 3",
+        "views": "200k",
+        "date": "5 months ago"
+      },
+      {
+        "id": 5,
+        "userId": 5,
+        "user": "media/navigate.png",
+        "video": "media/React Redux Toolkit E-Commerce Shopping Cart Project Category Card Design-4.mp4",
+        "title": "React Redux Toolkit E-Commerce Shopping Cart Project Category Card Design-4",
+        "tag": "Redux Part - 4",
+        "views": "6k",
+        "date": "4 months ago"
+      },
+      {
+        "id": 5,
+        "userId": 5,
+        "user": "media/sql.png",
+        "video": "media/React Redux Toolkit E-Commerce Shopping Cart Project Product Card Design-5.mp4",
+        "title": "React Redux Toolkit E-Commerce Shopping Cart Project Product Card Design-5",
+        "tag": "Redux Part - 5",
+        "views": "5k",
+        "date": "3 months ago"
+      },
+      {
+        "id": 5,
+        "userId": 5,
+        "user": "media/transport.jpg",
+        "video": "media/React Redux Toolkit E-Commerce Shopping Cart Project Rating Star Design-6.mp4",
+        "title": "React Redux Toolkit E-Commerce Shopping Cart Project Rating Star Design-6",
+        "tag": "Redux Part - 6",
+        "views": "7k",
+        "date": "2 months ago"
+      },
+      {
+        "id": 5,
+        "userId": 5,
+        "user": "media/trust in Allah.jpg",
+        "video": "media/React Redux Toolkit E-Commerce Shopping Cart Project Setup-2.mp4",
+        "title": "React Redux Toolkit E-Commerce Shopping Cart Project Setup-2",
+        "tag": "Redux Part - 2",
+        "views": "6k",
+        "date": "1 months ago"
+      },
+      {
+        "id": 4,
+        "userId": 4,
+        "user": "media/web.jpg",
+        "video": "media/React Typescript Project Tutorial  Shopping Cart - Part 1.mp4",
+        "title": "React Typescript Project Tutorial  Shopping Cart - Part 1",
+        "tag": "Typescript Part - 1",
+        "views": "7k",
+        "date": "28 days ago"
+      },
+      {
+        "id": 4,
+        "userId": 4,
+        "user": "media/Oyster Pie Punchfork.jpg",
+        "video": "media/React Typescript Project Tutorial  Shopping Cart - Part 2.mp4",
+        "title": "React Typescript Project Tutorial  Shopping Cart - Part 2",
+        "tag": "Typescript Part - 2",
+        "views": "4k",
+        "date": "4 days ago"
+      },
+      {
+        "id": 3,
+        "userId": 3,
+        "user": "media/cola.jpg",
+        "video": "media/Tailwind CSS Full Course for Beginners _ Complete All-in-One Tutorial _ 3 Hours.mp4",
+        "title": "Tailwind CSS Full Course for Beginners _ Complete All-in-One Tutorial _ 3 Hours",
+        "tag": "Tailwind/Css",
+        "views": "300k",
+        "date": "2 months ago"
+      },
+      {
+        "id": 2,
+        "userId": 2,
+        "user": "media/learn.png",
+        "video": "media/Responsive product slider in React js  MultiItem E-Commerce Product Slider  Tou.mp4",
+        "title": "Responsive product slider in React js  MultiItem E-Commerce Product Slider  Tou",
+        "tag": "Responsive",
+        "views": "700k",
+        "date": "9 months ago"
+      }
     ],
-    "startup":[
-        {
-            "id":1,
-            "body":"we are companies or ventures that are focused on a multiple product or service that the Company want to bring to market. we deal with entrepreneur that give the organization believe would be the solution to a long-standing problem. The problem can be industry-specific or general, but we are seeking to address an issue they feel has not been remedied satisfactorily. Ecoreme will typically begin with next to develop the organization as far as Technolog / Resources go."
-        }
+    "users": [
+      {
+        "name": "Angular",
+        "id": 1
+      },
+      {
+        "name": "React.js",
+        "id": 2
+      },
+      {
+        "name": "Tailwind",
+        "id": 3
+      },
+      {
+        "name": "Typescript",
+        "id": 4
+      },
+      {
+        "name": "Redux_React",
+        "id": 5
+      },
+      {
+        "name": "Next.js",
+        "id": 6
+      },
+      {
+        "name": "Vue.js",
+        "id": 7
+      },
+      {
+        "name": "Rest_Api",
+        "id": 8
+      },
+      {
+        "name": "Html",
+        "id": 9
+      },
+      {
+        "name": "Javascript",
+        "id": 10
+      },
+      {
+        "name": "Docker",
+        "id": 11
+      },
+      {
+        "name": "Css",
+        "id": 12
+      },
+      {
+        "name": "Clothe",
+        "id": "13"
+      }
     ],
-    "logistics":[
-        {
-            "id":1,
-            "image":"image/fundament.webp",
-            "logistic":"Logistic",
-            "type":"Transport",
-            "type2":"Acquired",
-            "type3":"Stored",
-            "quality":"Time move",
-            "quality2":"Time arrive",
-            "quality3":"Online"
-        },
-        {
-            "id":1,
-            "image":"image/supply.jpg",
-            "logistic":"Logistic",
-            "type":"Transport",
-            "type2":"Acquired",
-            "type3":"Stored",
-            "quality":"Time move",
-            "quality2":"Time arrive",
-            "quality3":"Online"
-        },
-        {
-            "id":1,
-            "logistic":"Logistic",
-            "image":"image/onlinetech.jpg",
-            "type":"Transport",
-            "type2":"Acquired",
-            "type3":"Stored",
-            "quality":"Time move",
-            "quality2":"Time arrive",
-            "quality3":"Online"
-        }
-
+    "messages": [
+      {
+        "id": "1",
+        "userId": 1,
+        "name": "thanks man for the course",
+        "title": "Abdulallah Sulaiman",
+        "image": "media/backend.jpg",
+        "date": "1 months ago"
+      },
+      {
+        "id": "2",
+        "userId": 2,
+        "title": "@AbdulB",
+        "image": "media/data science.png",
+        "name": "the course is reall interesting",
+        "date": "19 hours ago"
+      }
     ],
-    "technologys":[
-        {
-            "id":1,
-            "image":"image/logic.jpg",
-            "logistic":"Technology",
-            "type":"Knowledge",
-            "type2":"Reproducible",
-            "type3":"Phrased",
-            "quality":"Set",
-            "quality2":"Goal",
-            "quality3":"Achieve"
-        },
-        {
-            "id":1,
-            "image":"image/tech.webp",
-            "logistic":"Technology",
-            "type":"Technology",
-            "type2":"Reproducible",
-            "type3":"Phrased",
-            "quality":"Set",
-            "quality2":"Goal",
-            "quality3":"Achieve"
-        },
-        {
-            "id":1,
-            "logistic":"Technology",
-            "image":"image/feedback.jpg",
-            "type":"Technology",
-            "type2":"Reproducible",
-            "type3":"Phrased",
-            "quality":"Set",
-            "quality2":"Goal",
-            "quality3":"Achieve"
-        }
-
+    "shorts": [
+      {
+        "id": 1,
+        "subscribe": "Subscribe",
+        "subscribed": "Subscribed",
+        "name": "@AbdulAllah",
+        "user": "media/backend.jpg",
+        "title": "Life 🤦 #shortfeed",
+        "body": "money is adornment of this world 🤑💸💰#shortsfeed #islam #islamedits #islamshorts #islambelieve",
+        "video": "video/mapone.mp4",
+        "userId": 1,
+        "content": "today human are seeking after money and neglect the hereafter",
+        "surname": "@Nuruddeen",
+        "image": "media/web.jpg",
+        "date": "13 days ago",
+        "userId2": 2,
+        "content2": "the rizq is from Allah but most people didn't know",
+        "surname2": "@Abdulallah",
+        "image2": "media/graphic.jpg",
+        "date2": "2 months ago"
+      },
+      {
+        "id": 2,
+        "user": "media/backend.jpg",
+        "subscribe": "Subscribe",
+        "subscribed": "Subscribed",
+        "name": "@AbdulSalam",
+        "title": "Marriage 🥀 #shortfeed",
+        "body": "Don't force your daughter into marriage💯👍#shortsfeed #islam #islamedits #islamshorts #islambelieve",
+        "video": "video/maptwelve.mp4",
+        "userId": 1,
+        "content": "islam don't allow adultery",
+        "surname": "@Abdul-Rahman",
+        "image": "media/data science.png",
+        "date": "7 days ago",
+        "userId2": 2,
+        "content2": "marriage is also a means of rizq",
+        "surname2": "@Sheriffudden",
+        "image2": "media/business.png",
+        "date2": "20 days ago"
+      },
+      {
+        "id": 3,
+        "name": "@Olayinka",
+        "subscribe": "Subscribe",
+        "subscribed": "Subscribed",
+        "user": "media/financial.png",
+        "title": "No return back to this world 😢😨 #shortfeed",
+        "body": "from Allah we come and unto him is our return #shortsfeed #islam #islamedits #islamshorts #islambelieve",
+        "video": "video/mapone.mp4",
+        "userId": 1,
+        "content": "Allah should make us steadfast upon his religion",
+        "surname": "@Khadijah",
+        "image": "media/sql.png",
+        "date": "6 months ago",
+        "userId2": 2,
+        "content2": "we should be conscious of Allah alway is the way out",
+        "surname2": "@Muhammad",
+        "image2": "media/volume.png",
+        "date2": "10 days ago"
+      },
+      {
+        "id": 4,
+        "name": "@Peace",
+        "subscribe": "Subscribe",
+        "subscribed": "Subscribed",
+        "user": "media/python (1).png",
+        "title": "Saking forgiveness 👐🙌 #shortfeed",
+        "body": "He say, sake forgiveness from you Lord indeed he is ever the most forgiving 💯#shortsfeed #islam #islamedits #islamshorts #islambelieve",
+        "video": "video/mapfour.mp4",
+        "userId": 1,
+        "content": "Allah is the most-forgiving ",
+        "surname": "@Ridwan",
+        "image": "media/navigate.png",
+        "date": "1 months ago",
+        "userId2": 2,
+        "content2": "seeking forgiveness open path for rizq",
+        "surname2": "Abdul-Basit",
+        "image2": "media/product.jpg",
+        "date2": "1 months ago"
+      },
+      {
+        "id": 5,
+        "name": "@Dave_Gray",
+        "subscribe": "Subscribe",
+        "subscribed": "Subscribed",
+        "user": "media/graphic.png",
+        "title": "fear the hellfire 😢😨  #shortfeed",
+        "body": "A painful place to return to 😢😨#shortsfeed #islam #islamedits #islamshorts #islambelieve",
+        "video": "video/mapone.mp4",
+        "userId": 1,
+        "content": "thanks man for the video",
+        "surname": "@Luqman",
+        "image": "media/python (1).png",
+        "date": "19 days ago",
+        "userId2": 2,
+        "content2": "this video make me remember punishment after death",
+        "surname2": "@Abubakar",
+        "image2": "media/skill-r.png",
+        "date2": "28 days ago"
+      },
+      {
+        "id": 6,
+        "name": "@Kante_Hazard",
+        "subscribe": "Subscribe",
+        "subscribed": "Subscribed",
+        "user": "media/transport.jpg",
+        "title": "Death is evitable #shortfeed",
+        "body": "Take account for your deeds today befor you are taking to account #shortsfeed #islam #islamedits #islamshorts #islambelieve",
+        "video": "video/mapten.mp4",
+        "userId": 1,
+        "content": "death is evitable so be prepared",
+        "surname": "@Maryam",
+        "image": "media/information.png",
+        "date": "3 months ago",
+        "userId2": 2,
+        "content2": "this world is nothing but delusion",
+        "surname2": "Abdul-Salaam",
+        "image2": "media/cola.jpg",
+        "date2": "2 months ago"
+      }
     ],
-    "onelogistics":[
-        {
-            "id":1,
-            "image":"image/fundament.webp",
-            "logistic":"Logistic",
-            "type":"Transport",
-            "type2":"Acquired",
-            "type3":"Stored",
-            "quality":"Time move",
-            "quality2":"Time arrive",
-            "quality3":"Online"
-        }
+    "comments": [
+      {
+        "id": "1",
+        "content": "today human being are seeking after money and neglect the hereafter",
+        "surname": "@Nuruddeen",
+        "image": "media/information.png",
+        "date": "13 days ago"
+      },
+      {
+        "id": "2",
+        "userId": 2,
+        "content": "the rizq is from Allah but most people didn't know",
+        "surname": "@Abdulallah",
+        "image": "media/graphic.jpg",
+        "date": "2 months ago"
+      },
+      {
+        "id": "c0d2",
+        "userId": 1,
+        "content": "hello"
+      },
+      {
+        "id": "7394",
+        "userId": 1,
+        "content": "i want to go home"
+      }
     ],
-    "twologistics":[
-        {
-            "id":1,
-            "image":"image/fundament.webp",
-            "logistic":"Logistic",
-            "type":"Transport",
-            "type2":"Acquired",
-            "type3":"Stored",
-            "quality":"Time move",
-            "quality2":"Time arrive",
-            "quality3":"Online"
-        },
-        {
-            "id":1,
-            "logistic":"Logistic",
-            "image":"image/onlinetech.jpg",
-            "type":"Transport",
-            "type2":"Acquired",
-            "type3":"Stored",
-            "quality":"Time move",
-            "quality2":"Time arrive",
-            "quality3":"Online"
-        }
+    "subscribes": [
+      {
+        "id": "1",
+        "userId": 1,
+        "user": "media/business.png",
+        "video": "media/Build a Random Quote Machine with Nextjs, PlanetScale MySQL, & Drizzle ORM.mp4",
+        "title": "Build a Random Quote Machine with Nextjs, PlanetScale MySQL, & Drizzle ORM",
+        "tag": "Build a Random Quote",
+        "views": "17k",
+        "date": "23 days ago"
+      },
+      {
+        "id": "2",
+        "userId": 1,
+        "user": "media/backend.jpg",
+        "video": "media/Build Your UI Component Library in React & Next.js _ ShadCN UI for Beginners.mp4",
+        "title": "Build Your UI Component Library in React & Next.js _ ShadCN UI for Beginners",
+        "tag": "UI Component",
+        "views": "370k",
+        "date": "5 months ago"
+      },
+      {
+        "id": "3",
+        "userId": 2,
+        "user": "media/data science.png",
+        "video": "media/Don't Make These Next.js Mistakes.mp4",
+        "title": "Don't Make These Next.js Mistakes",
+        "tag": "Next.js Mistakes",
+        "views": "70k",
+        "date": "6 days ago"
+      },
+      {
+        "id": "4",
+        "userId": 1,
+        "user": "media/business.png",
+        "video": "media/How to Mock a REST API Server for Testing with Jest & React Testing Library.mp4",
+        "title": "How to Mock a REST API Server for Testing with Jest & React Testing Library.mp4",
+        "tag": "Mock a REST API",
+        "views": "107k",
+        "date": "1 months ago"
+      },
+      {
+        "id": "5",
+        "userId": 1,
+        "user": "media/google manage.png",
+        "video": "media/How to Upload Images to a Server in Next.js  Nextjs 13.mp4",
+        "title": "How to Upload Images to a Server in Next.js  Nextjs 13.mp4",
+        "tag": "Upload Images",
+        "views": "10k",
+        "date": "1 months ago"
+      },
+      {
+        "id": "6",
+        "userId": 1,
+        "user": "media/infomation.png",
+        "video": "media/Next.js Dark Mode with No Flicker + Tailwind CSS.mp4",
+        "title": "Next.js Dark Mode with No Flicker + Tailwind CSS.mp4",
+        "tag": "Dark Mode",
+        "views": "770k",
+        "date": "2 months ago"
+      }
     ],
-    "onetechs":[
-        {
-            "id":1,
-            "image":"image/tech.webp",
-            "logistic":"Technology",
-            "type":"Technology",
-            "type2":"Reproducible",
-            "type3":"Phrased",
-            "quality":"Set",
-            "quality2":"Goal",
-            "quality3":"Achieve"
-        }
+    
+    "subscribeshorts": [
+      
+      {
+        "id": 1,
+        "user": "media/backend.jpg",
+        "name": "@AbdulSalam",
+        "title": "Don't force your daughter into marriage",
+        "video": "video/maptwelve.mp4",
+        "userId": 1,
+        "views": "200k views",
+        "subscribe": "Subscribe",
+        "subscribed": "Subscribed"
+      },
+      {
+        "id": 3,
+        "name": "@Olayinka",
+        "title": "No return back to this world",
+        "video": "video/mapone.mp4",
+        "userId": 1,
+        "subscribe": "Subscribe",
+        "subscribed": "Subscribed",
+        "views": "100k views"
+      },
+      {
+        "id": 4,
+        "name": "@Peace",
+        "title": "The benefit of Seeking forgiveness",
+        "video": "video/mapfour.mp4",
+        "userId": 1,
+        "subscribe": "Subscribe",
+        "subscribed": "Subscribed",
+        "views": "110k views"
+      },
+      {
+        "id": 5,
+        "name": "@Dave_Gray",
+        "title": "Why you fear the hellfire",
+        "video": "video/mapone.mp4",
+        "userId": 1,
+        "subscribe": "Subscribe",
+        "subscribed": "Subscribed",
+        "views": "28k views"
+      },
+      {
+        "id": 6,
+        "name": "@Kante_Hazard",
+        "title": "Death is evitable ",
+        "video": "video/mapten.mp4",
+        "userId": 1,
+        "subscribe": "Subscribe",
+        "subscribed": "Subscribed",
+        "views": "3k views"
+      }
     ],
-    "twotechs":[
-        {
-            "id":1,
-            "image":"image/tech.webp",
-            "logistic":"Technology",
-            "type":"Technology",
-            "type2":"Reproducible",
-            "type3":"Phrased",
-            "quality":"Set",
-            "quality2":"Goal",
-            "quality3":"Achieve"
-        },
-        {
-            "id":1,
-            "logistic":"Technology",
-            "image":"image/feedback.jpg",
-            "type":"Technology",
-            "type2":"Reproducible",
-            "type3":"Phrased",
-            "quality":"Set",
-            "quality2":"Goal",
-            "quality3":"Achieve"
-        }
+    "subscribehides": [
+      
+      {
+        "id": 1,
+        "user": "media/transport.jpg",
+        "name": "@Abdul-Rahman",
+        "title": "My Login Authentication",
+        "video": "video/My Login Authentication & User Registration Setup for React & Next.js _ Kinde Auth.mp4",
+        "userId": 1,
+        "subscribe": "Subscribe",
+        "subscribed": "Subscribed",
+        "views": "280k views"
+      },
+      {
+        "id": 2,
+        "name": "@Abass",
+        "title": "Next-Auth Login Authentication",
+        "video": "video/Next-Auth Login Authentication Tutorial with Next.js App Directory (1).mp4",
+        "userId": 1,
+        "subscribe": "Subscribe",
+        "subscribed": "Subscribed",
+        "views": "130k views"
+      },
+      {
+        "id": 3,
+        "name": "@Olawale",
+        "title": "Next.js 15 Fixes Caching Issues",
+        "video": "video/Next.js 15 Fixes Caching Issues _ Nextjs Default Cache Changes.mp4",
+        "userId": 1,
+        "subscribe": "Subscribe",
+        "subscribed": "Subscribed",
+        "views": "11k views"
+      },
+      {
+        "id": 4,
+        "name": "@Gray_brown",
+        "title": "Next.js Dark Mode with No Flicker + Tailwind CSS",
+        "video": "video/Next.js Dark Mode with No Flicker + Tailwind CSS.mp4",
+        "userId": 1,
+        "subscribe": "Subscribe",
+        "subscribed": "Subscribed",
+        "views": "2k views"
+      },
+      {
+        "id": 5,
+        "name": "@William",
+        "title": "Next.js Image Optimization with Image Component ",
+        "video": "video/Next.js Image Optimization with Image Component _ Responsive Images.mp4",
+        "userId": 1,
+        "subscribe": "Subscribe",
+        "subscribed": "Subscribed",
+        "views": "30k views"
+      },
+      {
+        "id": 6,
+        "name": "@Abdul-Mulik",
+        "title": "Next.js Project Example with Discussion",
+        "video": "video/Next.js Project Example with Discussion.mp4",
+        "userId": 1,
+        "subscribe": "Subscribe",
+        "subscribed": "Subscribed",
+        "views": "290k views"
+      },
+      {
+        "id": 7,
+        "name": "@Bright",
+        "title": "NextJS Parallel Routes Explained with a Simple Example",
+        "video": "video/NextJS Parallel Routes Explained with a Simple Example.mp4",
+        "userId": 1,
+        "subscribe": "Subscribe",
+        "subscribed": "Subscribed",
+        "views": "109k views"
+      },
+      {
+        "id": 8,
+        "name": "@Malik",
+        "title": "Next.js with React Testing Library, Jest, TypeScript",
+        "video": "video/Next.js with React Testing Library, Jest, TypeScript.mp4",
+        "userId": 1,
+        "subscribe": "Subscribe",
+        "subscribed": "Subscribed",
+        "views": "410k views"
+      },
+      {
+        "id": 9,
+        "name": "@Anas",
+        "title": "Next.js Template vs Layout with Page Transition Animations",
+        "video": "video/Next.js Template vs Layout with Page Transition Animations.mp4",
+        "userId": 1,
+        "subscribe": "Subscribe",
+        "subscribed": "Subscribed",
+        "views": "8k views"
+      },
+      {
+        "id": 10,
+        "name": "@Drinkwater",
+        "title": "Next.js Reports tutorial with Microsoft Excel",
+        "video": "video/Next.js Reports tutorial with Microsoft Excel.mp4",
+        "userId": 1,
+        "subscribe": "Subscribe",
+        "subscribed": "Subscribed",
+        "views": "300k views"
+      }
     ],
-    "logs":[
-        {
-            "dedicate":"We are Dedicated and dead serious About our business",
-            "view":"Want to view our exclusive special rates?",
-            "sign":"Sign in or create an account to view all",
-            "liner":"our available special rates for this liner.",
-            "service":"Ecoreme Provide Awesome complex operation, refers to the overall process of managing how your resources are Acquired, stored and transported to their final destination. And use own our patented system called Logistic, short for Client, Culture and Company. Our specialists are able to 'infiltrate' all company sections and analyze for areas where improvement is needed "
-        }
+    "you":[
+      {
+        "id": "1",
+        "userId": 1,
+        "user": "you/pic1 (1).jpg",
+        "video": "you/5 Self-Defense Moves Every Woman Should Know - HER Network.mp4",
+        "title": "5 Self-Defense Moves Every Woman Should Know",
+        "tag": "Defense video",
+        "views": "170k",
+        "date": "1 months ago"
+      },
+      {
+        "id": "2",
+        "userId": 2,
+        "user": "you/pic1 (2).jpg",
+        "video": "you/Epic Quran challenge _ 8 Quran memorisers vs 50_000 Naira(720P_60FPS)",
+        "title": "Epic Quran challenge _ 8 Quran memorisers vs 50_000 Naira(720P_60FPS)",
+        "tag": "olyrae",
+        "views": "7k",
+        "date": "28 days ago"
+      },
+      {
+        "id": "3",
+        "userId": 1,
+        "user": "you/pic1 (3).jpg",
+        "video": "you/musibah 1",
+        "title": "When facing Hardship",
+        "tag": "Musibah",
+        "views": "117k",
+        "date": "2 days ago"
+      },
+      {
+        "id": "4",
+        "userId": 1,
+        "user": "you/pic1 (4).jpg",
+        "video": "you/musibah 2.mp4",
+        "title": "When facing Hardship",
+        "tag": "Hardship",
+        "views": "200k",
+        "date": "1 day ago"
+      },
+      {
+        "id": "5",
+        "userId": 1,
+        "user": "you/pic1 (5).jpg",
+        "video": "you/1704532580270_1704532580272.mp4",
+        "title": "Islam Video.mp4",
+        "tag": "short video",
+        "views": "77k",
+        "date": "2 days ago"
+      },
+      {
+        "id": "6",
+        "userId": 1,
+        "user": "you/pic1 (6).jpg",
+        "video": "you/honour and power belong to Allah.mp4",
+        "title": "honour and power belong to Allah.mp4",
+        "tag": "Izza(Power)",
+        "views": "171k",
+        "date": "3 months ago"
+      },
+      {
+        "id": "7",
+        "userId": 1,
+        "user": "you/pic1 (7).jpg",
+        "video": "you/Nutrition Tips- Pregnancy and Nutrition.mp4",
+        "title": "Nutrition Tips- Pregnancy and Nutrition.mp4",
+        "tag": "Nutrition Tips",
+        "views": "270k",
+        "date": "1 year ago"
+      },
+      {
+        "id": "8",
+        "userId": 1,
+        "user": "you/pic1 (8).jpg",
+        "video": "niqab 1.mp4",
+        "title": "Woman Dressin up .mp4",
+        "tag": "Ayah on woman dressing",
+        "views": "700k",
+        "date": "8 months ago"
+      },
+      {
+        "id": "9",
+        "userId": 1,
+        "user": "you/pic1 (9).jpg",
+        "video": "you/niqab 2.mp4",
+        "title": "Woman Dressin up 2.mp4",
+        "tag": "Ayah on woman dressing 2",
+        "views": "171",
+        "date": "2 years ago"
+      },
+      {
+        "id": "10",
+        "userId": 1,
+        "user": "you/pic1 (10).jpg",
+        "video": "you/f347fa77c4a4480a882764b0be3215a3_1712614697548.mp4",
+        "title": "Islam Video",
+        "tag": "short video",
+        "views": "10k",
+        "date": "a month ago"
+      }   
     ],
-    "solutions":[
+    
+    "playlists": [
+      
+      {
+        "id": "1",
+        "userId":1,
+        "name": "@Olakunle",
+        "title": "Short Surat - Suratul Isra",
+        "video": "you/suratul Israil 1.mp4",
+        "text": "Short Surat - Suratul Isra 2",
+        "second": "you/suratul Israil 2.mp4",
+        "texts":"honour and power belong to Allah",
+        "videos":"honour and power belong to Allah.mp4",
+        "amount":"2",
+        "views": "Olakunle - playlist",
+        "date":"updated last month"
+      },
+      {
+        "userId":2,
+        "id": "2",
+        "name": "@Raphael",
+        "title": "React Redux Toolkit E-Commerce Shopping 4",
+        "video": "media/React Redux Toolkit E-Commerce Shopping Cart Project Category Card Design-4.mp4",
+        "second": "React Redux Toolkit E-Commerce Shopping 3",
+        "text": "media/React Redux E-Commerce Shopping 3.mp4",
+        "texts": "React Redux Toolkit E-Commerce Shopping Cart 5",
+        "videos":"media/React Redux Toolkit E-Commerce Shopping Cart Project Product Card Design-5.mp4",
+        "amount":"5",
+        "views": "Raphael - playlist",
+        "date":"updated last week"
+      },
+      {
+        "userId":3,
+        "id": "3",
+        "name": "@Uthman",
+        "title": "man jealousy of woman wealth",
+        "video": "you/your wife 1.mp4",
+        "second": "you/your wife 2.mp4",
+        "text": "man jealousy of woman wealth 2",
+        "amount":"3",
+        "texts":"death is inevitable",
+        "videos":"mapten.mp4",
+        "views": "Uthman - playlist",
+        "date":"updated Yesterday"
+      },
+      {
+        "userId":4,
+        "id": "4",
+        "name": "@Hussain",
+        "title": "Next.js Course parts",
+        "video": "media/Next.js Dark Mode with No Flicker + Tailwind CSS.mp4",
+        "text": "Next.js Course parts",
+        "second": "video/Next-Auth Login Authentication Tutorial with Next.js App Directory (1).mp4",
+        "texts": "Next.js Course parts",
+        "videos": "media/Next.js Full Course for Beginners _ Nextjs 13 Tutorial _ 7 Hours.mp4",
+        "amount":"3",
+        "views": "Hussain - playlist",
+        "date":"updated last 2 month"
+      },
+      {
+        "userId":5,
+        "id": "5",
+        "name": "@William",
+        "title": "Next.js Image Optimization with Image Component ",
+        "video": "video/Next.js with React Testing Library, Jest, TypeScript.mp4",
+        "text": "Next.js Image Optimization with Image Component ",
+        "second": "video/Next.js Image Optimization with Image Component _ Responsive Images.mp4",
+        "texts": "Next.js Reports tutorial with Microsoft Excel",
+        "videos": "video/Next.js Reports tutorial with Microsoft Excel.mp4",
+        "amount":"3",
+        "views": "William - playlist",
+        "date":"updated last 3 days"
+      },
+      {
+        "userId":6,
+        "id": "6",
+        "name": "@Abdul-Mulik",
+        "title": "Solution to your Hardship",
+        "text": "Solution to your Hardship 2",
+        "second": "you/musibah 2.mp4",
+        "video": "you/musibah 1.mp4",
+        "videos":"maptwo.mp4",
+        "texts":"Feed the Orphan",
+        "amount":"3",
+        "views": "Abdul-Mulik - playlist",
+        "date":"updated 3 weeks"
+      },
+      {
+        "userId":7,
+        "id": "7",
+        "name": "@Bright",
+        "title": "React.JS Full Course ",
+        "video": "media/React Typescript Project Tutorial  Shopping Cart - Part 2.mp4",
+        "text": "React.JS Course",
+        "second": "media/React Typescript Project Tutorial  Shopping Cart - Part 1.mp4",
+        "texts": "React JS Full Course for Beginners _ Complete All-in-One",
+        "videos": "media/React Typescript Project Tutorial  Shopping Cart - Part 2.mp4",
+        "views": "Bright - playlist",
+        "date":"updated last 6 month",
+        "amount":"3"
+      },
+      {
+        "userId":8,
+        "id": "8",
+        "name": "@Malik",
+        "title": "Next.js with React Testing Library, Jest, TypeScript",
+        "video": "media/How to Mock a REST API Server for Testing with Jest & React Testing Library.mp4",
+        "text": "REST API Server for Testing with Jest ",
+        "second": "media/How to Mock a REST API Server for Testing with Jest & React Testing Library.mp4", 
+        "texts": "Build a Random Quote Machine with Nextjs",
+        "videos": "media/Build a Random Quote Machine with Nextjs, PlanetScale MySQL, & Drizzle ORM.mp4",
+        "amount":"3",
+        "views": "Malik - playlist",
+        "date":"updated few minute ago"
+      }
+     ],
+     
+      "likes":[
         {
-            "image":"image/case.png",
-            "title":"Ecoreme Solutions",
-            "body":"Our patented business solutions are unique and can be incorporated into almost any type of company.",
-            "number":"Ecoreme Clients",
-            "numberBody":"Intrinsically integrate diverse action items for team building best practices. Globally supply covalent ROI via e-business markets, assertively."
+          "id": "1",
+          "user": "media/backend.jpg",
+          "video": "media/Responsive Navbar Tutorial In React JS.mp4",
+          "title": "Responsive Navbar Tutorial In React JS",
+          "videosecond": "media/Responsive product slider in React js  MultiItem E-Commerce Product Slider  Tou.mp4",
+          "tag": "React video",
+          "views": "170k",
+          "date": "3 months ago"
         },
         {
-            "image":"image/dice.png",
-            "title":"Improve with Ecoreme",
-            "body":"No matter how well your business runs, there is always room for improvement, and Ecoreme are the experts for this.",
-            "number":"Ecoreme Projects",
-            "numberBody":"Intrinsically integrate diverse action items for team building best practices. Globally supply covalent ROI via e-business markets, assertively."
+          "id": "2",
+          "user": "media/data science.png",
+          "video": "media/React Upload Image and Show  Image Cropping Feature  React JS Image Uploading.m.mp4",
+          "videosecond": "media/Responsive product slider in React js  MultiItem E-Commerce Product Slider  Tou.mp4",
+          "title": "React Upload Image and Show  Image Cropping Feature  React JS Image Uploading",
+          "tag": "olyrae",
+          "views": "7k",
+          "date": "28 days ago"
         },
         {
-            "image":"image/volume.png",
-            "title":"Ecoreme And Growth",
-            "body":"Under the wings of Ecoreme, you will witness a business growth in a short amount of time. A week is all you need.",
-             "number":"Ecoreme Solutions",
-            "numberBody":"Intrinsically integrate diverse action items for team building best practices. Globally supply covalent ROI via e-business markets, assertively."
+          "id": "3",
+          "user": "media/business.png",
+          "video": "media/Angular Full Course - Complete Zero to Hero Angular full Tutorial.mp4",
+          "title": "Angular Full Course - Complete Zero to Hero Angular full Tutorial.mp4",
+          "tag": "Course",
+          "views": "117k",
+          "date": "23 days ago"
+        },
+        {
+          "id": "4",
+          "user": "media/google manage.png",
+          "video": "media/CSS Tutorial – Full Course for Beginners.mp4",
+          "title": "CSS Tutorial – Full Course for Beginners.mp4",
+          "tag": "Css video",
+          "views": "170k",
+          "date": "1 months ago"
+        },
+        {
+          "id": "5",
+          "user": "media/infomation.png",
+          "video": "media/Docker Containers and Kubernetes Fundamentals – Full Hands-On Course.mp4",
+          "title": "Docker Containers and Kubernetes Fundamentals – Full Hands-On Course.mp4",
+          "tag": "Docker video",
+          "views": "77k",
+          "date": "2 days ago"
+        },
+        {
+          "id": "6",
+          "user": "media/python (1).png",
+          "video": "media/JavaScript Full Course (2023) - Beginner to Pro - Part 1.mp4",
+          "title": "JavaScript Full Course (2023) - Beginner to Pro - Part 1.mp4",
+          "tag": "Full Course",
+          "views": "17k",
+          "date": "3 days ago"
+        },
+        {
+          "id": "7",
+          "user": "media/logo-food.png",
+          "video": "media/Learn HTML – Full Tutorial for Beginners (2022).mp4",
+          "title": "Learn HTML – Full Tutorial for Beginners (2022).mp4",
+          "tag": "Html Full-Video",
+          "views": "170k",
+          "date": "1 year ago"
+        },
+        {
+          "id": "8",
+          "user": "media/Specialization-python.png",
+          "video": "NET 5 REST API Tutorial - Build From Scratch With C#.mp4",
+          "title": "NET 5 REST API Tutorial - Build From Scratch With C#.mp4",
+          "tag": "Net 5 Rest-Api",
+          "views": "7k",
+          "date": "8 months ago"
+        },
+        {
+          "id": "9",
+          "user": "media/business.png",
+          "video": "media/Vue JS complete tutorial _ Full course for beginners _ version 3.mp4",
+          "title": "Vue JS complete tutorial _ Full course for beginners _ version",
+          "tag": "olyrae",
+          "views": "171",
+          "date": "2 years ago"
+        },
+        {
+          "id": "10",
+          "user": "media/learn.png",
+          "video": "media/Next.js Full Course for Beginners _ Nextjs 13 Tutorial _ 7 Hours.mp4",
+          "title": "Next.js Full Course for Beginners _ Nextjs 13 Tutorial _ 7 Hours",
+          "tag": "Next.js",
+          "views": "10k",
+          "date": "a month ago"
+        },
+        {
+          "id": "11",
+          "user": "media/graphic.png",
+          "video": "media/React JS Full Course for Beginners _ Complete All-in-One Tutorial _ 9 Hours (1).m.mp4",
+          "title": "React JS Full Course for Beginners _ Complete All-in-One Tutorial _ 9 Hours (1)",
+          "tag": "Full Course for Beginners",
+          "views": "101k",
+          "date": "4 months ago"
         }
-    ],
-    "companys":[
+      ],
+      "likeds":[
         {
-            "id":1,
-            "image":"image/dangote.png"
+          "id": "1",
+          "user": "media/sql.png",
+          "tag": "Islam Video",
+          "views": "117k",
+          "date": "23 days ago",
+          "title": "man jealousy of woman wealth",
+          "video": "you/your wife 1.mp4"
         },
         {
-            "id":2,
-            "image":"image/global.png"
+          "id": "2",
+          "title": "Next.js Course parts",
+          "video": "media/Next.js Dark Mode with No Flicker + Tailwind CSS.mp4",
+          "user": "media/web.jpg",
+          "tag": "Next.js Course",
+          "views": "17k",
+          "date": "3 months ago"
         },
         {
-            "id":3,
-            "image":"image/tiny.png"
-        },
-        {
-            "id":1,
-            "image":"image/micro.png"
-        },
-        {
-            "id":1,
-            "image":"image/afex.png"
-        }
-    ],
-    "faqs": [
+          "id": "3",
+          "title": "Next.js Image Optimization with Image Component ",
+          "video": "video/Next.js with React Testing Library, Jest, TypeScript.mp4",
+          "user": "media/Data-Science-Fundementals-in-Research.png",
+          "tag": "Next.js Course",
+          "views": "237k",
+          "date": "2 weeks ago"
+        }  
+      ],
+      "downloads":[
         {
             "id": 1,
-            "title": "What do you do at Ecoreme",
-            "body": "We provide digital freight management services to Organization's cross-border traders. Our web-based application enables you search negotiated real-time rates and comprehensive quotes. Our clients are also able to track and monitor the progress of their Stored Resources from transport to delivery, from anywhere in the world. We offer logistics and technology, pay as you go and off-dock terminal handling services, and marine insurance."
+            "user": "media/business.png",
+            "video": "media/editVideo.mp4",
+            "title": "Clothes and dresses on olyrae shopping website",
+            "tag": "olyrae",
+            "views": "17k",
+            "date": "3 days ago"
+          },
+          {
+            "id": 2,
+            "user": "media/cola.jpg",
+            "title": "The benefit of Seeking forgiveness",
+            "video": "video/mapfour.mp4",
+            "tag": "forgiveness",
+            "views": "127k",
+            "date": " 1 month ago"
+          },
+          {
+            "id": 3,
+            "user": "media/learn.png",
+            "title": "Why you fear the hellfire",
+            "video": "video/mapone.mp4",
+            "tag": "fear",
+            "views": "179k",
+            "date": "29 days ago"
+          },
+          {
+            "id": 4,
+            "title": "Next.js Image Optimization with Image Component ",
+            "video": "video/Next.js with React Testing Library, Jest, TypeScript.mp4",
+            "user": "media/Data-Science-Fundementals-in-Research.png",
+            "tag": "Next.js Course",
+            "views": "237k",
+            "date": "2 weeks ago"
+          }
+      ],
+      "nondownload":[
+        {
+          "id": "1",
+          "user": "media/sql.png",
+          "tag": "Islam Video",
+          "views": "117k",
+          "date": "23 days ago",
+          "title": "man jealousy of woman wealth",
+          "video": "you/your wife 1.mp4"
         },
-    {
-        "id": 2,
-        "title": "Create an account",
-        "body": "Click on Create Account to initiate the Logistic and Technology process."
-    },
-    {
-        "id": 3,
-        "title": "How Your Resources are Store",
-        "body": " Log in to Ecoreme to gain access to our streamlined Logistic services, competitive rates, and outstanding customer support."
-    },
-    {
-        "id": 4,
-        "title": "Confirm your Stored / Acquired Resource.",
-        "body": "Our exceptional customer support team will promptly follow up with you and provide updates on all your Resources."
-    },
-    {
-        "id": 5,
-        "title": "Track and Monitor Resources",
-        "body": "Keep track of your Stored/Acquired in transit with our reliable tracker, allowing you to stay informed about their whereabouts."
-    }
-,
-    {
-        "id": 6,
-        "title": "How can I track my Resourses?",
-        "body": "A tracking link will be assigned to your Stored/Acquired Resources once your booking has been confirmed. With this, you are able to track the status of your order from your dashboard."
-    }
-],
-"reviews":[
-    {
-        "id":1,
-        "star":"review/stars.png",
-        "image":"review/backend.jpg",
-        "user":"Smith David",
-        "body":"Very Good service all trust them on their delivery and other service. They are Dedicate to timing in delivery to their customer. I suggest everyone to choose this courier service",
-        "icon":"review/face.png"
-    },
-    {
-        "id":2,
-        "star":"review/stars.png",
-        "image":"review/gg.jpg",
-        "user":"Paul Olive",
-        "body":"Very Good service ever",
-        "icon":"review/face.png"
-    },
-    {
-        "id":3,
-        "image":"review/python.png",
-        "star":"review/stars.png",
-        "user":"Abdul-Salam Ola",
-        "body":"I selected this vendor based on their google rating 4.5+. But honestly speaking their service deserved more than that rating.",
-        "icon":"review/face.png"
-    },
-    {
-        "id":4,
-        "image":"review/backend.jpg",
-        "star":"review/stars.png",
-        "user":"Smith David",
-        "body":"The main thing I like best about supply chain management is that it is a broad discipline and touches on many parts of a company",
-        "icon":"review/face.png"
-    },
-    {
-        "id":5,
-        "image":"review/unlimited.png",
-        "star":"review/stars.png",
-        "user":"Fawas Olatunji",
-        "body":"Ecoreme was competent in doing anything. They just stand on their trust",
-        "icon":"review/face.png"
-    },
-    {
-        "id":6,
-        "image":"review/image-1.jpeg",
-        "star":"review/stars.png",
-        "user":"Mutmainat Ojulari",
-        "body":"Ecoreme Logistics is best and professional moving company.",
-        "icon":"review/face.png"
-    }
-],
-"review":[
-    {
-        "id":1,
-        "image":"review/image-3.jpeg",
-        "star":"review/stars.png",
-        "user":"Chika Ugo",
-        "body":"There is no doubt that logistics plays a vital role in our economy and its importance is only increasing as businesses become more globalized. Without efficient logistics, it would be impossible for business to move products around the world a timely and cost-effective manner",
-        "icon":"review/face.png"
-    },
-    {
-        "id":2,
-        "star":"review/stars.png",
-        "image":"review/image-2.jpeg",
-        "user":"Elizabeth Gloria",
-        "body":"I had used the service of Ecoreme and Movers 2 weeks back to parcel my 2 wheeler from Lagos to Benin. Quiet happy with their service",
-        "icon":"review/face.png"
-    },
-    {
-        "id":3,
-        "image":"review/web.jpg",
-        "star":"review/stars.png",
-        "user":"Peter Akon",
-        "body":"Lovely service rendering",
-        "icon":"review/face.png"
-    }
-]
-}
+        {
+          "id": "2",
+          "title": "Next.js Course parts",
+          "video": "media/Next.js Dark Mode with No Flicker + Tailwind CSS.mp4",
+          "user": "media/web.jpg",
+          "tag": "Next.js Course",
+          "views": "17k",
+          "date": "3 months ago"
+        },
+        {
+          "id": "3",
+          "title": "Next.js Image Optimization with Image Component ",
+          "video": "video/Next.js with React Testing Library, Jest, TypeScript.mp4",
+          "user": "media/Data-Science-Fundementals-in-Research.png",
+          "tag": "Next.js Course",
+          "views": "237k",
+          "date": "2 weeks ago"
+        }  
+      ]
+  }
