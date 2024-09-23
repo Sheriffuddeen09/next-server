@@ -1,251 +1,423 @@
-
 {
-    "posts":[
+    "homes":[
+        {
+            "images":"image/logic.jpg",
+            "welcome":"welcome to Ecoreme Logistics Choose your path to Success",
+            "title":"Ecoreme Company",
+            "body":"Ecoreme is a detailed organization and implementation of a complex operation, refers to the overall process of managing how your resources are acquired, stored, and transported to their final destination. Logistics plays a critical role in business operations and the economy at large",
+            "clicks":"View Proceed" 
+        },
+        {
+            "images":"image/tech.webp",
+            "welcome":"welcome to Ecoreme Technology Choose your path to Success",
+            "title":"Ecoreme Company",
+            "body":"Ecoreme technology, help in the application of scientific knowledge to the practical aims of human life or phrased, to the change and manipulation of the human environment. Ecoreme technology is applicable to conceptual knowledge to achieve practical goals, especially in a reproducible way and products resulting goods",
+           "clicks": "View Proceed"
+        }
+    ],
+    "inputs":[
         {
             "id":1,
-            "user":"media/business.png",
-            "video":"media/editVideo.mp4",
-            "title":"Clothes and dresses on olyrae shopping website",
-            "tag":"olyrae",
-            "views":"17k",
-            "date":"3 days ago"
+            "transport":"Ajman (AEAJM) United arab Emirate"
         },
         {
-            "id":2,
-            "user":"media/backend.jpg",
-            "video":"media/Responsive Navbar Tutorial In React JS.mp4",
-            "title":"Responsive Navbar Tutorial In React JS",
-            "video2":"media/Responsive product slider in React js  MultiItem E-Commerce Product Slider  Tou.mp4",
-            "tag":"React video",
-            "views":"170k",
-            "date":"3 months ago"
+            "id": 2,
+            "transport": "Abu Dhabi (AEAUH) United arab Emirate"
         },
         {
-            "id":3,
-            "user":"media/data science.png",
-            "video":"media/React Upload Image and Show  Image Cropping Feature  React JS Image Uploading.m.mp4",
-            "video2":"media/Responsive product slider in React js  MultiItem E-Commerce Product Slider  Tou.mp4",
-            "title":"React Upload Image and Show  Image Cropping Feature  React JS Image Uploading",
-            "tag":"olyrae",
-            "views":"7k",
-            "date":"28 days ago"
+            "id": 3,
+            "transport": " Dubia (AEDBX) United arab Emirate"
         },
         {
             "id":4,
-            "user":"media/business.png",
-            "video":"media/Angular Full Course - Complete Zero to Hero Angular full Tutorial.mp4",
-            "title":"Angular Full Course - Complete Zero to Hero Angular full Tutorial.mp4",
-            "tag":"Course",
-            "views":"117k",
-            "date":"23 days ago"
+            "transport": " Fujairah (AEFJR) United arab Emirate"
         },
         {
             "id":5,
-            "user":"media/google manage.png",
-            "video":"media/CSS Tutorial – Full Course for Beginners.mp4",
-            "title":"CSS Tutorial – Full Course for Beginners.mp4",
-            "tag":"Css video",
-            "views":"170k",
-            "date":"1 months ago"
+            "transport": "Dubai (AEDXB) United arab Emirate"
         },
         {
             "id":6,
-            "user":"media/infomation.png",
-            "video":"media/Docker Containers and Kubernetes Fundamentals – Full Hands-On Course.mp4",
-            "title":"Docker Containers and Kubernetes Fundamentals – Full Hands-On Course.mp4",
-            "tag":"Docker video",
-            "views":"77k",
-            "date":"2 days ago"
+            "transport": "Ras Al Khaimah (AERKT) United"
         },
         {
             "id":7,
-            "user":"media/python (1).png",
-            "video":"media/JavaScript Full Course (2023) - Beginner to Pro - Part 1.mp4",
-            "title":"JavaScript Full Course (2023) - Beginner to Pro - Part 1.mp4",
-            "tag":"Full Course",
-            "views":"17k",
-            "date":"3 days ago"
+            "transport": "Jebel Ali (AEJEA) United arab Emirate"
         },
         {
             "id":8,
-            "user":"media/logo-food.png",
-            "video":"media/Learn HTML – Full Tutorial for Beginners (2022).mp4",
-            "title":"Learn HTML – Full Tutorial for Beginners (2022).mp4",
-            "tag":"Html Full-Video",
-            "views":"170k",
-            "date":"1 year ago"
+            "transport": "Abidan (CIABJ) Cote d'lvore"
         },
         {
             "id":9,
-            "user":"media/Specialization-python.png",
-            "video":"NET 5 REST API Tutorial - Build From Scratch With C#.mp4",
-            "title":"NET 5 REST API Tutorial - Build From Scratch With C#.mp4",
-            "tag":"Net 5 Rest-Api",
-            "views":"7k",
-            "date":"8 months ago"
+            "transport": "San-Pedro (CISPY) Cote d'lvore"
         },
         {
             "id":10,
-            "user":"media/business.png",
-            "video":"media/Vue JS complete tutorial _ Full course for beginners _ version 3.mp4",
-            "title":"Vue JS complete tutorial _ Full course for beginners _ version",
-            "tag":"olyrae",
-            "views":"171",
-            "date":"2 years ago"
+            "transport": "Douala(CMDLA) Cameroon"
         },
         {
             "id":11,
-            "user":"media/learn.png",
-            "video":"media/Next.js Full Course for Beginners _ Nextjs 13 Tutorial _ 7 Hours.mp4",
-            "title":"Next.js Full Course for Beginners _ Nextjs 13 Tutorial _ 7 Hours",
-            "tag":"Next.js",
-            "views":"10k",
-            "date":"a month ago"
+            "transport": "Tema (GHTEM) Ghana"
         },
         {
             "id":12,
-            "user":"media/graphic.png",
-            "video":"media/React JS Full Course for Beginners _ Complete All-in-One Tutorial _ 9 Hours (1).m.mp4",
-            "title":"React JS Full Course for Beginners _ Complete All-in-One Tutorial _ 9 Hours (1)",
-            "tag":"Full Course for Beginners",
-            "views":"101k",
-            "date":"4 months ago"
+            "transport": "Takoradi (GHTKD) Ghana"
         },
         {
             "id":13,
-            "user":"media/financial.png",
-            "video":"media/React Redux E-Commerce Shopping Cart React Router Dom Install-3.mp4",
-            "title":"React Redux E-Commerce Shopping Cart React Router Dom Install-3",
-            "tag":"Redux Part - 3",
-            "views":"200k",
-            "date":"5 months ago"
+            "transport": "Mombasa (KEMBA) Kenya"
         },
         {
             "id":14,
-            "user":"media/navigate.png",
-            "video":"media/React Redux Toolkit E-Commerce Shopping Cart Project Category Card Design-4.mp4",
-            "title":"React Redux Toolkit E-Commerce Shopping Cart Project Category Card Design-4",
-            "tag":"Redux Part - 4",
-            "views":"6k",
-            "date":"4 months ago"
+            "transport": "Nairobi (KENBO) Kenya"
         },
         {
             "id":15,
-            "user":"media/sql.png",
-            "video":"media/React Redux Toolkit E-Commerce Shopping Cart Project Product Card Design-5.mp4",
-            "title":"React Redux Toolkit E-Commerce Shopping Cart Project Product Card Design-5",
-            "tag":"Redux Part - 5",
-            "views":"5k",
-            "date":"3 months ago"
+            "transport": "Apapa (NGAPP) Nigeria"
         },
         {
             "id":16,
-            "user":"media/transport.jpg",
-            "video":"media/React Redux Toolkit E-Commerce Shopping Cart Project Rating Star Design-6.mp4",
-            "title":"React Redux Toolkit E-Commerce Shopping Cart Project Rating Star Design-6",
-            "tag":"Redux Part - 6",
-            "views":"7k",
-            "date":"2 months ago"
+            "transport": "Calabar (NGCBQ) Nigeria"
         },
         {
             "id":17,
-            "user":"media/trust in Allah.jpg",
-            "video":"media/React Redux Toolkit E-Commerce Shopping Cart Project Setup-2.mp4",
-            "title":"React Redux Toolkit E-Commerce Shopping Cart Project Setup-2",
-            "tag":"Redux Part - 2",
-            "views":"6k",
-            "date":"1 months ago"
+            "transport": "Lagos (NGLOS) Nigeria"
         },
         {
             "id":18,
-            "user":"media/web.jpg",
-            "video":"media/React Typescript Project Tutorial  Shopping Cart - Part 1.mp4",
-            "title":"React Typescript Project Tutorial  Shopping Cart - Part 1",
-            "tag":"Typescript Part - 1",
-            "views":"7k",
-            "date":"28 days ago"
+            "transport": "Onne (NGONN) Nigeria"
         },
         {
             "id":19,
-            "user":"media/Oyster Pie Punchfork.jpg",
-            "video":"media/React Typescript Project Tutorial  Shopping Cart - Part 2.mp4",
-            "title":"React Typescript Project Tutorial  Shopping Cart - Part 2",
-            "tag":"Typescript Part - 2",
-            "views":"4k",
-            "date":"4 days ago"
+            "transport": "Port Harcort (NGPHC) Nigeria"
         },
         {
             "id":20,
-            "user":"media/cola.jpg",
-            "video":"media/Tailwind CSS Full Course for Beginners _ Complete All-in-One Tutorial _ 3 Hours.mp4",
-            "title":"Tailwind CSS Full Course for Beginners _ Complete All-in-One Tutorial _ 3 Hours",
-            "tag":"Tailwind/Css",
-            "views":"300k",
-            "date":"2 months ago"
+            "transport": "Tincan/Lagos (NGTIN) Nigeria"
         },
         {
             "id":21,
-            "user":"media/learn.png",
-            "video":"media/Responsive product slider in React js  MultiItem E-Commerce Product Slider  Tou.mp4",
-            "title":"Responsive product slider in React js  MultiItem E-Commerce Product Slider  Tou",
-            "tag":"Responsive",
-            "views":"700k",
-            "date":"9 months ago"
+            "transport": "Warri (NGWAR) Nigeria"
+        },
+        {
+            "id":22,
+            "transport": "Dakar (SNDKR) Senegal"
+        }
+    ],
+    "startup":[
+        {
+            "id":1,
+            "body":"we are companies or ventures that are focused on a multiple product or service that the Company want to bring to market. we deal with entrepreneur that give the organization believe would be the solution to a long-standing problem. The problem can be industry-specific or general, but we are seeking to address an issue they feel has not been remedied satisfactorily. Ecoreme will typically begin with next to develop the organization as far as Technolog / Resources go."
+        }
+    ],
+    "logistics":[
+        {
+            "id":1,
+            "image":"image/fundament.webp",
+            "logistic":"Logistic",
+            "type":"Transport",
+            "type2":"Acquired",
+            "type3":"Stored",
+            "quality":"Time move",
+            "quality2":"Time arrive",
+            "quality3":"Online"
+        },
+        {
+            "id":1,
+            "image":"image/supply.jpg",
+            "logistic":"Logistic",
+            "type":"Transport",
+            "type2":"Acquired",
+            "type3":"Stored",
+            "quality":"Time move",
+            "quality2":"Time arrive",
+            "quality3":"Online"
+        },
+        {
+            "id":1,
+            "logistic":"Logistic",
+            "image":"image/onlinetech.jpg",
+            "type":"Transport",
+            "type2":"Acquired",
+            "type3":"Stored",
+            "quality":"Time move",
+            "quality2":"Time arrive",
+            "quality3":"Online"
         }
 
     ],
-    "users":[
+    "technologys":[
         {
-            "name":"Angular",
-            "id":1
+            "id":1,
+            "image":"image/logic.jpg",
+            "logistic":"Technology",
+            "type":"Knowledge",
+            "type2":"Reproducible",
+            "type3":"Phrased",
+            "quality":"Set",
+            "quality2":"Goal",
+            "quality3":"Achieve"
         },
         {
-            "name":"React.js",
-            "id":2
+            "id":1,
+            "image":"image/tech.webp",
+            "logistic":"Technology",
+            "type":"Technology",
+            "type2":"Reproducible",
+            "type3":"Phrased",
+            "quality":"Set",
+            "quality2":"Goal",
+            "quality3":"Achieve"
         },
         {
-            "name":"Tailwind",
-            "id":3
-        },
-        {
-            "name":"Typescript",
-            "id":4
-        },
-        {
-            "name":"Redux_React",
-            "id":5
-        },
-        {
-            "name":"Next.js",
-            "id":6
-        },
-        {
-            "name":"Vue.js",
-            "id":7
-        },
-        {
-            "name":"Rest_Api",
-            "id":8
-        },
-        {
-            "name":"Html",
-            "id":9
-        },
-        {
-            "name":"Javascript",
-            "id":10
-        },
-        {
-            "name":"Docker",
-            "id":11
-        },
-        {
-            "name":"Css",
-            "id":12
-        },
-        {
-            "name":"Clothe",
-            "id":13
+            "id":1,
+            "logistic":"Technology",
+            "image":"image/feedback.jpg",
+            "type":"Technology",
+            "type2":"Reproducible",
+            "type3":"Phrased",
+            "quality":"Set",
+            "quality2":"Goal",
+            "quality3":"Achieve"
         }
-    ]
+
+    ],
+    "onelogistics":[
+        {
+            "id":1,
+            "image":"image/fundament.webp",
+            "logistic":"Logistic",
+            "type":"Transport",
+            "type2":"Acquired",
+            "type3":"Stored",
+            "quality":"Time move",
+            "quality2":"Time arrive",
+            "quality3":"Online"
+        }
+    ],
+    "twologistics":[
+        {
+            "id":1,
+            "image":"image/fundament.webp",
+            "logistic":"Logistic",
+            "type":"Transport",
+            "type2":"Acquired",
+            "type3":"Stored",
+            "quality":"Time move",
+            "quality2":"Time arrive",
+            "quality3":"Online"
+        },
+        {
+            "id":1,
+            "logistic":"Logistic",
+            "image":"image/onlinetech.jpg",
+            "type":"Transport",
+            "type2":"Acquired",
+            "type3":"Stored",
+            "quality":"Time move",
+            "quality2":"Time arrive",
+            "quality3":"Online"
+        }
+    ],
+    "onetechs":[
+        {
+            "id":1,
+            "image":"image/tech.webp",
+            "logistic":"Technology",
+            "type":"Technology",
+            "type2":"Reproducible",
+            "type3":"Phrased",
+            "quality":"Set",
+            "quality2":"Goal",
+            "quality3":"Achieve"
+        }
+    ],
+    "twotechs":[
+        {
+            "id":1,
+            "image":"image/tech.webp",
+            "logistic":"Technology",
+            "type":"Technology",
+            "type2":"Reproducible",
+            "type3":"Phrased",
+            "quality":"Set",
+            "quality2":"Goal",
+            "quality3":"Achieve"
+        },
+        {
+            "id":1,
+            "logistic":"Technology",
+            "image":"image/feedback.jpg",
+            "type":"Technology",
+            "type2":"Reproducible",
+            "type3":"Phrased",
+            "quality":"Set",
+            "quality2":"Goal",
+            "quality3":"Achieve"
+        }
+    ],
+    "logs":[
+        {
+            "dedicate":"We are Dedicated and dead serious About our business",
+            "view":"Want to view our exclusive special rates?",
+            "sign":"Sign in or create an account to view all",
+            "liner":"our available special rates for this liner.",
+            "service":"Ecoreme Provide Awesome complex operation, refers to the overall process of managing how your resources are Acquired, stored and transported to their final destination. And use own our patented system called Logistic, short for Client, Culture and Company. Our specialists are able to 'infiltrate' all company sections and analyze for areas where improvement is needed "
+        }
+    ],
+    "solutions":[
+        {
+            "image":"image/case.png",
+            "title":"Ecoreme Solutions",
+            "body":"Our patented business solutions are unique and can be incorporated into almost any type of company.",
+            "number":"Ecoreme Clients",
+            "numberBody":"Intrinsically integrate diverse action items for team building best practices. Globally supply covalent ROI via e-business markets, assertively."
+        },
+        {
+            "image":"image/dice.png",
+            "title":"Improve with Ecoreme",
+            "body":"No matter how well your business runs, there is always room for improvement, and Ecoreme are the experts for this.",
+            "number":"Ecoreme Projects",
+            "numberBody":"Intrinsically integrate diverse action items for team building best practices. Globally supply covalent ROI via e-business markets, assertively."
+        },
+        {
+            "image":"image/volume.png",
+            "title":"Ecoreme And Growth",
+            "body":"Under the wings of Ecoreme, you will witness a business growth in a short amount of time. A week is all you need.",
+             "number":"Ecoreme Solutions",
+            "numberBody":"Intrinsically integrate diverse action items for team building best practices. Globally supply covalent ROI via e-business markets, assertively."
+        }
+    ],
+    "companys":[
+        {
+            "id":1,
+            "image":"image/dangote.png"
+        },
+        {
+            "id":2,
+            "image":"image/global.png"
+        },
+        {
+            "id":3,
+            "image":"image/tiny.png"
+        },
+        {
+            "id":1,
+            "image":"image/micro.png"
+        },
+        {
+            "id":1,
+            "image":"image/afex.png"
+        }
+    ],
+    "faqs": [
+        {
+            "id": 1,
+            "title": "What do you do at Ecoreme",
+            "body": "We provide digital freight management services to Organization's cross-border traders. Our web-based application enables you search negotiated real-time rates and comprehensive quotes. Our clients are also able to track and monitor the progress of their Stored Resources from transport to delivery, from anywhere in the world. We offer logistics and technology, pay as you go and off-dock terminal handling services, and marine insurance."
+        },
+    {
+        "id": 2,
+        "title": "Create an account",
+        "body": "Click on Create Account to initiate the Logistic and Technology process."
+    },
+    {
+        "id": 3,
+        "title": "How Your Resources are Store",
+        "body": " Log in to Ecoreme to gain access to our streamlined Logistic services, competitive rates, and outstanding customer support."
+    },
+    {
+        "id": 4,
+        "title": "Confirm your Stored / Acquired Resource.",
+        "body": "Our exceptional customer support team will promptly follow up with you and provide updates on all your Resources."
+    },
+    {
+        "id": 5,
+        "title": "Track and Monitor Resources",
+        "body": "Keep track of your Stored/Acquired in transit with our reliable tracker, allowing you to stay informed about their whereabouts."
+    }
+,
+    {
+        "id": 6,
+        "title": "How can I track my Resourses?",
+        "body": "A tracking link will be assigned to your Stored/Acquired Resources once your booking has been confirmed. With this, you are able to track the status of your order from your dashboard."
+    }
+],
+"reviews":[
+    {
+        "id":1,
+        "star":"review/stars.png",
+        "image":"review/backend.jpg",
+        "user":"Smith David",
+        "body":"Very Good service all trust them on their delivery and other service. They are Dedicate to timing in delivery to their customer. I suggest everyone to choose this courier service",
+        "icon":"review/face.png"
+    },
+    {
+        "id":2,
+        "star":"review/stars.png",
+        "image":"review/gg.jpg",
+        "user":"Paul Olive",
+        "body":"Very Good service ever",
+        "icon":"review/face.png"
+    },
+    {
+        "id":3,
+        "image":"review/python.png",
+        "star":"review/stars.png",
+        "user":"Abdul-Salam Ola",
+        "body":"I selected this vendor based on their google rating 4.5+. But honestly speaking their service deserved more than that rating.",
+        "icon":"review/face.png"
+    },
+    {
+        "id":4,
+        "image":"review/backend.jpg",
+        "star":"review/stars.png",
+        "user":"Smith David",
+        "body":"The main thing I like best about supply chain management is that it is a broad discipline and touches on many parts of a company",
+        "icon":"review/face.png"
+    },
+    {
+        "id":5,
+        "image":"review/unlimited.png",
+        "star":"review/stars.png",
+        "user":"Fawas Olatunji",
+        "body":"Ecoreme was competent in doing anything. They just stand on their trust",
+        "icon":"review/face.png"
+    },
+    {
+        "id":6,
+        "image":"review/image-1.jpeg",
+        "star":"review/stars.png",
+        "user":"Mutmainat Ojulari",
+        "body":"Ecoreme Logistics is best and professional moving company.",
+        "icon":"review/face.png"
+    }
+],
+"review":[
+    {
+        "id":1,
+        "image":"review/image-3.jpeg",
+        "star":"review/stars.png",
+        "user":"Chika Ugo",
+        "body":"There is no doubt that logistics plays a vital role in our economy and its importance is only increasing as businesses become more globalized. Without efficient logistics, it would be impossible for business to move products around the world a timely and cost-effective manner",
+        "icon":"review/face.png"
+    },
+    {
+        "id":2,
+        "star":"review/stars.png",
+        "image":"review/image-2.jpeg",
+        "user":"Elizabeth Gloria",
+        "body":"I had used the service of Ecoreme and Movers 2 weeks back to parcel my 2 wheeler from Lagos to Benin. Quiet happy with their service",
+        "icon":"review/face.png"
+    },
+    {
+        "id":3,
+        "image":"review/web.jpg",
+        "star":"review/stars.png",
+        "user":"Peter Akon",
+        "body":"Lovely service rendering",
+        "icon":"review/face.png"
+    }
+]
 }
