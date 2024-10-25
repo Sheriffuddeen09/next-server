@@ -873,7 +873,7 @@
     {
       "id": "1",
       "userId": 1,
-      "user": "media/pic1 (1).jpg",
+      "user": "media/transport.jpg",
       "video": "media/suratul Israil.mp4",
       "title": "Recitation of Quran during fajr",
       "tag": "islam video",
@@ -883,7 +883,7 @@
     {
       "id": "2",
       "userId": 2,
-      "user": "media/pic1 (2).jpg",
+      "user": "media/data science.png",
       "video": "media/suratul-maryam.mp4",
       "title": "Suratul-Maryam",
       "tag": "Suratul-Maryam",
@@ -893,7 +893,7 @@
     {
       "id": "3",
       "userId": 1,
-      "user": "media/pic1 (3).jpg",
+      "user": "media/Data-Science-Fundementals-in-Research.png",
       "video": "media/record.mp4",
       "title": "Recieve your deed book of record",
       "tag": "record",
@@ -903,7 +903,7 @@
     {
       "id": "4",
       "userId": 1,
-      "user": "media/pic1 (4).jpg",
+      "user": "media/backend.jpg",
       "video": "media/record2.mp4",
       "title": "Recieve your deed book of record 2",
       "tag": "record",
@@ -913,7 +913,7 @@
     {
       "id": "5",
       "userId": 1,
-      "user": "media/pic1 (5).jpg",
+      "user": "media/learn.png",
       "video": "media/suratul-kahf2.mp4",
       "title": "Quran Recitation.mp4",
       "tag": "short video",
